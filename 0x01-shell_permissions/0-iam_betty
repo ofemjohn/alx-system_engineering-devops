@@ -1,2 +1,2 @@
 #!/bin/bash
-su test +1
+su betty 
