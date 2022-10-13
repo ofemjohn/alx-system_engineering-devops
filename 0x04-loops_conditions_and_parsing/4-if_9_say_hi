@@ -5,9 +5,9 @@ while [ "$i" -le 8 ];
 do
 	echo "Best School"
 	i=$((i+1))
-if [ "$i" == 8 ];
-then
-       echo "Hi"
-fi
+	if [ "$i" == 8 ];
+	then
+       		echo "Hi"
+	fi
 done
 
