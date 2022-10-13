@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# Display numnber from 1 - 20 
+# Display "bad luck from China after the 4th number"
+# Display "bad luck from Japan after the 9th number"
+# Display "bad luck from Italy after the 17th number"
+
+NUMBER=1
+while [ "$NUMBER" -le 20 ];
+do
+	echo "$NUMBER"
+	case "$NUMBER" in 
+	4)
+		echo "bad luck from China"
+		;;
+	9)
+		echo "bad luck from Japan"
+		;;
+	17)
+		echo "bad luck from Italy"
+		;;
+	esac
+	NUMBER=$((NUMBER+1))
+done
+
