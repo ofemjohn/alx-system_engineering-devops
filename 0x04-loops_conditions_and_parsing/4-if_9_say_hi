@@ -4,10 +4,10 @@ i=0
 while [ "$i" -le 8 ];
 do
 	echo "Best School"
-	        i=$((i+1))
-		if [ "$i" -eq 8 ];
-		then
-       			echo "Hi"
-		fi
+	i=$((i+1))
+	if [ "$i" -eq 8 ];
+	then
+        	echo "Hi"
+	fi
 done
 
