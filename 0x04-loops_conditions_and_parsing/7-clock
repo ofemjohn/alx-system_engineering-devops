@@ -3,10 +3,10 @@
 
 HOUR=0
 MINUITE=1
-while [ "$HOUR" -le 12 ];
+while [ "$HOUR" -le "12" ];
 do
 	echo "Hour: $HOUR"
-	while [ "$MINUITE" -le 60 ];
+	while [ "$MINUITE" -le "59" ];
 	do
 		echo "$MINUITE"
 		MINUITE=$((MINUITE+1))
