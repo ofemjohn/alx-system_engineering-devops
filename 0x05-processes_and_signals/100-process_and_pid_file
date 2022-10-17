@@ -9,7 +9,7 @@ echo $$ > /var/run/myscript.pid
 trap 'echo "I hate the kill command"; rm -f /var/run/myscript.pid; exit' 15
 trap 'echo "Y U no love me?!"' 2
 trap 'echo "rm -f /var/run/myscript.pid"; exit' 3
-while True
+while true
 do
 	echo "To infinity and beyond"
 	sleep 2
