@@ -1,4 +1,6 @@
 # using puppet install flask from pip3
+# must be version 2.1.0
 package { 'flask':
-  command => 'sudo apt install python3-flask -v 2.2.2',
+  ensure   => '2.1.0',
+  provider => 'pip3',
   }
