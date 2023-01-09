@@ -3,10 +3,10 @@
 # using a roundrobin algorithm
 
  echo "
-# 18.209.223.58 53323-lb-01
-# 52.91.120.191 53323-web-02
-# 3.84.238.247 53323-web-01
-# " | sudo tee -a /etc/hosts 
+# 54.237.116.155 49141-web-01
+# 52.87.220.88 49141-web-02
+# 34.239.107.98 49141-lb-01
+# " | sudo tee -a /etc/hosts
 
 sudo apt-get update
 sudo apt-get upgrade
@@ -30,3 +30,4 @@ backend webservers
 "
 echo "$balancer" | sudo tee -a /etc/haproxy/haproxy.cfg
 sudo service haproxy restart
+~                           
