@@ -6,5 +6,9 @@
    SELECT user FROM mysql.user WHERE user='holberton_user';
    ### COMMAND TO SHOW GRANT
    SHOW GRANTS FOR 'holberton_user'@'localhost';
-##
+## task5 
+   sudo mysql 
+   mysql> SET PASSWORD FOR 'root'@'localhost' = PASSWORD('root');
+   exit
+   then create a script(5-mysql_backup) with its content, make executable and run ** ./5-mysql_backu   p root **
   
