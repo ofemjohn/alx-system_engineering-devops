@@ -24,5 +24,8 @@ The health of all servers will be monitored more closely to detect and address i
 ### Conclusion:
 The HAProxy load balancer server outage caused an interruption in service, but the issue was quickly resolved by spinning up a new server and reconfiguring it using saved server configurations scripts. The root cause of the incident is unknown, but it is being investigated and steps have been taken to prevent similar incidents from happening in the future. The team will continue to monitor the health of all servers using a data-dog monitoring tool and regularly backup configurations to ensure the best possible uptime for the systems.
 
+here is the link to the postmortem blog
+[postmorte](https://medium.com/@ofem.john/post-mortem-report-haproxy-load-balancer-server-outage-850da875d8b2)
+
 Signed by: [John Ofem]
 Software Engineering Student, ALX
